@@ -1,0 +1,11 @@
+# wallet - btc
+#* * * * * /home/droid/wallet_btc/venv/bin/python3 /home/droid/wallet_btc/wallet_checkincomming.py
+
+#*/10 * * * * /home/droid/wallet_btc/venv/bin/python3 /home/droid/wallet_btc/wallet_generateaddresses.py
+
+#*/2 * * * * /home/droid/wallet_btc/venv/bin/python3 /home/droid/wallet_btc/wallet_send.py
+
+#*/5 * * * * /home/droid/wallet_btc/venv/bin/python3 /home/droid/wallet_btc/wallet_watchsent.py
+
+#*/30 * * * * /home/droid/wallet_btc/venv/bin/python3 /home/droid/wallet_btc/wallet_getlatestfee.py
+
